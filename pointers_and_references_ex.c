@@ -9,5 +9,6 @@ int main() {
   printf("pn   --> %p \n",pn);
   printf("*pn  --> %d \n",*pn);
   printf("&*pn --> %p \n",&*pn);
+  printf("*&n  --> %d \n",*&n);
   return 0;
 }
